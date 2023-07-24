@@ -24,19 +24,19 @@
     <!-- Tailwind CSS Link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="p-4">
 
     
     <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
 
         <!-- Nav Section -->
-        <nav class=" flex flex-col md:flex-row justify-between items-center font-roboto">
+        <nav class=" flex flex-col md:flex-row justify-between items-center font-roboto ">
 
             <div class="w-60">
                 <img src="icons/logo.png" alt="">
             </div>
 
-            <div class="">
+            <div class="py-5">
                 <ul class="flex justify-evenly gap-7  text-[#3C3C3C] text-base">
                     <li><a href=""></a>Home</li>
                     <li><a href=""></a>Product</li>
@@ -50,7 +50,7 @@
 
         <!-- Banner Section -->
         <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="text-left  space-y-3">
+            <div class=" sm:text-left text-center space-y-3">
                 <h1 class="text-7xl uppercase font-bebas"><span class="text-[#FABE4C]">Be the Penguins</span><br>
                     of Winter</h1>
                     <p class="">Lorem Ipsum is simply dummy text of the printing 
@@ -275,14 +275,23 @@
 
             </div>
             <!-- Support Img Container -->
-            <div class="w-1/2 p-5">
+            <div class=" sm:w-1/2 p-5">
                 <img src="images/shopping.png" alt="">
             </div>
 
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="bg-blue-950 py-10">
+        <h1 class="text-white  text-center font-extrabold text-3xl">Contact Us</h1>
+        <p class="text-[#FFF] p-5 text-center">
+            Name: Prosenjith Dash Pappu<br>
+            Email: prosenjith.edu@gmail.com<br>
+            Mobile Number: 01724154911<br>
+
+        </p>
+        <h2 class="text-black text-center pt-10">&copy;Penguin Fashion</h2>
+    </footer>
 
 </body>
 </html>
